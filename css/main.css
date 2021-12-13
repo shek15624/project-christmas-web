@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Header Top */
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 0%;
+}
+.header-top {
+    width: 100%;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    background: #fff;
+    z-index: 20;
+}
+/* Header Button */
+.header-top .navbar-nav li{
+    padding: 6px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top .navbar-nav .nav-link{
+    padding: 8px 8px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top .navbar-nav .active a{
+    background-color: red;
+    color: white;
+    border-radius: 0 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top .navbar-nav .nav-link:hover{
+    border-radius: 0 15px;
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top img{
+    vertical-align: middle;
+    border-style: none;
+}
+.head{
+    padding: 0px;
+}
+
+/* Media Query Header */
+@media(max-width: 320px){
+    .header-top img{
+        width: 216px;
+    }
+    .carousel-inner img{
+        margin-top: 72px;
+    }
+    .head-slide .head {
+        padding: 0px;
+    }
+}
+@media(max-width: 375px){
+    .header-top img{
+        width: 216px;
+    }
+    .carousel-inner img{
+        margin-top: 72px;
+    }
+}
+@media(max-width: 425px){
+    .header-top img{
+        width: 216px;
+    }
+    .carousel-inner img{
+        margin-top: 72px;
+    }
+}
+/*Mopile Device Completed Header Section */
+/* BestWishes Box Style Started */
+
+
+.bestwishes-box{
+    padding: 70px 0px;
+}
+.bestwishes-box h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: red;
+}
+.bestwishes-box .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bestwishes-box .row{
+    display: flex;
+}
+.wish-right-left{
+    display: flex;
+}
+.wishright-1-img img{
+    width: 60px;
+}
+.wishright-1-img h3 {
+    font-size: 45px;
+    color: #e91327;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.bestwishes-box p{
+    color: #666666;
+    font-size: 15px;
+    padding-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+}
+.wish-btn .btn{
+    background: red;
+    color: white;
+    border-radius: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+.wish-btn .btn:hover{
+    background: #666666;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px 15px;
+    padding: 10px 20px;
+}
+.align-item-center{
+    align-items: center;
+}
+/* Best Wishes Box 1 Completed */
+/* Best Wishes Box Media Query Started */
+@media(max-width: 320px){
+    .bestwishes-box h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+    .wishright-1-img h3 {
+        font-size: 24px;
+        color: #e91327;
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+@media(max-width: 375px){
+    .bestwishes-box h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 42px;
+        font-weight: 400;
+        color: red;
+    }
+    .wishright-1-img h3 {
+        font-size: 24px;
+        color: #e91327;
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    .head-slide .head {
+        padding: 0px;
+    }
+}
+@media(max-width: 425px){
+    .bestwishes-box h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 42px;
+        font-weight: 400;
+        color: red;
+    }
+    .wishright-1-img h3 {
+        font-size: 24px;
+        color: #e91327;
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    .head-slide .head {
+        padding: 0px;
+    }
+}
+@media(max-width: 768px){
+        .bestwishes-box h2 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 42px;
+            font-weight: 400;
+            color: red;
+        }
+        .wishright-1-img h3 {
+            font-size: 24px;
+            color: #e91327;
+            padding-bottom: 12px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
+        .head-slide .head {
+            padding: 0px;
+        }
+        .bestwishes-box .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+}
+/* BestWishes Box-1 Started*/
+.bestwishesbox-1{
+    padding: 70px 0px;
+}
+.bestwishesbox-1 h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: red;
+}
+.bestwishesbox-1 .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bestwishesbox-1 .row{
+    display: flex;
+}
+.wish-right-left{
+    display: flex;
+}
+.wishright-1-img img{
+    width: 60px;
+}
+.wishright-1-img h3 {
+    font-size: 45px;
+    color: #e91327;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.bestwishesbox-1 p{
+    color: #666666;
+    font-size: 15px;
+    padding-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+}
+.wish-btn .btn{
+    background: red;
+    color: white;
+    border-radius: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+.wish-btn .btn:hover{
+    background: #666666;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px 15px;
+    padding: 10px 20px;
+}
+.align-item-center{
+    align-items: center;
+}
+.bestwishesbox-1 .img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+/* Media Query BestWishesBox-1 */
+@media(max-width: 320px){
+    .bestwishesbox-1 h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+    .wishright-1-img h3 {
+        font-size: 24px;
+        color: #e91327;
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    .bestwishesbox-1 .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 375px){
+    .bestwishesbox-1 h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 42px;
+        font-weight: 400;
+        color: red;
+    }
+    .wishright-1-img h3 {
+        font-size: 24px;
+        color: #e91327;
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    .head-slide .head {
+        padding: 0px;
+    }
+    .bestwishesbox-1 .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 425px){
+    .bestwishesbox-1 h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 42px;
+        font-weight: 400;
+        color: red;
+    }
+    .wishright-1-img h3 {
+        font-size: 24px;
+        color: #e91327;
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    .head-slide .head {
+        padding: 0px;
+    }
+    .bestwishesbox-1 .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 768px){
+    .bestwishesbox-1 h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 42px;
+        font-weight: 400;
+        color: red;
+    }
+    .wishright-1-img h3 {
+        font-size: 24px;
+        color: #e91327;
+        padding-bottom: 12px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    .head-slide .head {
+        padding: 0px;
+    }
+    .bestwishesbox-1 .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+}
+/* BestWishes Box-1 */
+.best-deals h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: red;
+}
+.best-deals .title-best{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.best-deals {
+    padding: 70px 0px;
+    background-color: #fff;
+}
+.deal-one {
+    height: auto;
+    text-align: center;
+    border: 8px solid #eee;
+    margin-bottom: 30px;
+}
+.deal-one:hover {
+    height: auto;
+    text-align: center;
+    border: 8px solid red;
+    margin-bottom: 30px;
+}
+/* Media Query Best-Deals*/
+@media(max-width: 320px){
+    .best-deals h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: red;
+    }
+}
+@media(max-width: 768px){
+    .bestwishesbox-1 h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+}
+/* Donate Section Started */
+.donate h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: red;
+}
+.donate .title-donate{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.donate {
+    padding: 70px 0px 120px;
+}
+/* Media Query Donate Section */
+@media(max-width: 320px){
+    .donate h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: red;
+    }
+    .donate {
+        padding: 70px 0px 70px;
+    }
+}
+@media(max-width: 375px){
+    .best-deals h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+}
+@media(max-width: 425px){
+    .best-deals h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+}
+@media(max-width: 768px){
+    .bestwishesbox-1 h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+}    
+/* TestiMonial Section Started */
+.testimonial h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: red;
+}
+.testimonial .title-testi{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Testimonial Section Started */
+.cards .card{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: white;
+}
+.cards .card img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+.cards h5{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.cards p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: #666666;
+}
+.cards .card{
+    width: 50rem;
+}
+.testimonial {
+    padding: 70px 0px 120px;
+}
+/* Media Query TestiMonial */
+@media(max-width: 320px){
+    .testimonial h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+    .testimonial .cards .card{
+        width: 0px;
+    }
+    .cards h5 {
+        text-align: center;
+        color: red;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+/* Contact Section Started */
+.contact .flex{
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+.contact .form-1{
+    padding-left: 15px;
+}
+.contact .form-2{
+    padding-bottom: 15px;
+}
+.contact .form-control{
+    background-color: #333;
+    padding: 12px 0px 12px 10px;
+}
+.submit-button{
+    padding-top: 23px;
+}
+.contact .btn{
+    background: red;
+    color: white;
+    border-radius: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+.contact .btn:hover{
+    background: black;
+    color: white;
+    border-radius: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+.contact .contact-icon{
+    padding-bottom: 25px;
+}
+.contact i{
+    font-size: 51px;
+    background: red;
+    border-radius: 50%;
+    color: azure;
+}
+.contact .icon-body{
+    padding-left: 20px;
+}
+.contact .icon-f i{
+    font-size: 30px;
+    color: white;
+}
+.contact .icon-t{
+    padding-left: 20px;
+}
+.contact .icons{
+    padding: 17px;
+}
+.contact .title-donate h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: center;
+    color: red;
+}
+.contact{
+    padding: 70px 0px;
+}
+/* MediaQuery Contact Section */
+@media(max-width: 320px){
+    .contact .title-donate h2{
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        color: red;
+    }
+    .form-right {
+        padding-top: 20px;
+    }
+}
+/* Subscripe Box */
+.subscribe-box {
+    padding: 70px 0px;
+    background: #e91327;
+}
+.sub-text h2 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+.subscribe-box .input-email{
+    text-align: center;
+}
+.subscribe-box .form-control-1{
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 0px;
+    border: none;
+}
+.subscribe-box .input-email{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subscribe-box .subscripe-btn{
+    margin-top: 1rem;
+    text-align: center;
+}
+.subscripe-btn .btn{
+    background: black;
+    color: white;
+    border-radius: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+.subscripe-btn .btn:hover{
+    background: #666666;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px 15px;
+    padding: 10px 20px;
+}
+
+
+/* Footer Section */
+.footer-box{
+    background: #ccc;
+    padding: 20px 0;
+}
+.footer-box p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif
+}
+.footer-box .footer-company-name {
+    text-align: center;
+    margin: 0px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+.footer-box a{
+    color: #333;
+}
